@@ -11,6 +11,7 @@
 }
 
 .partners-card-content {
+  padding: 20px;
   display: grid;
   grid-gap: 10px;
   width: 288px;
@@ -96,17 +97,9 @@
   color: #907e82;
 }
 
-.teltext:focus,
-.mailtext:focus {
+.teltext:hover,
+.mailtext:hover {
   color: #d41443;
-}
-
-.mailtext {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 183%;
-  color: #907e82;
 }
 
 .btn-details {
@@ -146,11 +139,21 @@
   width: 168px;
   height: 44px;
 }
+.btn-details {
+  width: 380px;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 50px;
+}
 
 /* Stilizare pentru mobile */
 @media screen and (max-width: 768px) {
   #partners-contact {
-    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    margin-top: -10%; /*play: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 20px; /* Adăugăm un spațiu între secțiune și footer */
@@ -164,7 +167,7 @@
     width: 216px;
     height: 332px;
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 25px;
   }
   .partners-location p {
     font-family: var(--font-family);
@@ -181,6 +184,9 @@
   .btn-details {
     width: 161px;
     height: 98px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 50px;
   }
 }
 
@@ -224,7 +230,8 @@
 @media screen and (min-width: 1200px) {
   #partners-contact {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
     justify-content: center;
     position: absolute;
     width: 100%;
