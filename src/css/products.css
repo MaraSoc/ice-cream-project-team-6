@@ -273,10 +273,13 @@
             margin-right: 32px;
         }
     .product-list {
-            width: 368px;
+            width: 224px;
             height: 796px;
             padding:0px;
         }
+    .product-pic{
+            left: -25px;
+    }
     .prod-1::after {
             content: '...';
             color: white;
