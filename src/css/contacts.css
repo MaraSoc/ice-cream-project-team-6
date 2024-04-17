@@ -192,7 +192,7 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    z-index: 999;
+    z-index: 10;
     margin-top: -120px; /* Adăugăm un spațiu între secțiune și footer */
   }
 
@@ -228,7 +228,7 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    z-index: 999;
+    z-index: 10;
     margin-top: -10%; /* Se suprapune 75% peste footer */
   }
 }
