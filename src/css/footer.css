@@ -17,7 +17,7 @@
 
 .global-footer {
   background-color: var(--footer-background-color);
-  height: 1513px;
+  height: 513px;
   position: relative;
   display: flex;
   flex-direction: column;

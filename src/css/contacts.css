@@ -1,4 +1,7 @@
 /* Stiluri generale pentru carduri */
+#partners-contact {
+  background-color: #fff5f6;
+}
 .partners-card {
   border-radius: 24px;
   padding: 20px;
@@ -8,6 +11,8 @@
   box-shadow: 0 8px 30px 0 rgba(212, 20, 67, 0.1);
   background: #fff;
   position: relative;
+  margin-top: -3rem;
+  display: flex;
 }
 
 .partners-card-content {
@@ -127,7 +132,7 @@
 }
 
 .btn-partners:hover,
-.btn-partnersS:focus {
+.btn-partners:focus {
   color: var(--white-color);
   background-color: var(--btn-footer-hover-background);
   border-radius: 22px;
@@ -152,13 +157,13 @@
   #partners-contact {
     display: flex;
     flex-direction: column;
+    gap: 5rem;
     justify-content: center;
-    margin-top: 20px; /* Adăugăm un spațiu între secțiune și footer */
   }
   .partners-card {
     width: 280px;
-    /*height: 412px;*/
-    margin-top: 20px; /* Afișarea pe un singur rând */
+    position: relative;
+    margin-top: -3rem;
   }
   .partners-card-content {
     width: 216px;
@@ -179,13 +184,20 @@
     height: 2px;
   }
   .btn-details {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  .btn-partners {
     width: 161px;
-    height: 98px;
+    height: 44px;
+    margin-top: 5px;
   }
 }
 
 /* Stilizare pentru tablete */
-@media screen and (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
   #partners-contact {
     display: flex;
     flex-wrap: wrap;
@@ -221,7 +233,7 @@
   }
 }
 /* Stilizare pentru desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   #partners-contact {
     display: flex;
     flex-wrap: wrap;
@@ -229,6 +241,6 @@
     position: absolute;
     width: 100%;
     z-index: 10;
-    margin-top: -10%; /* Se suprapune 75% peste footer */
+    margin-top: -10%;
   }
 }
