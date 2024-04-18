@@ -103,8 +103,8 @@
   color: #907e82;
 }
 
-.teltext:focus,
-.mailtext:focus {
+.teltext:hover,
+.mailtext:hover {
   color: #d41443;
 }
 
