@@ -141,14 +141,26 @@
     border: 1px solid #888;
     width: 80%;
     color: #d41443;
-    height: 35%;
+    height: 50%;
     text-align: center;
 }
 .text-modal-icecream{
     align-content: center;
     margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--font-family);
 }
-
+.ul-nutritional{
+    padding: 0%;
+    font-family: var(--font-family);
+}
+.modal-icecream{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .close {
   color: #aaa;
   float: right;
