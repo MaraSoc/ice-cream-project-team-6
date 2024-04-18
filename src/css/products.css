@@ -141,6 +141,12 @@
     border: 1px solid #888;
     width: 80%;
     color: #d41443;
+    height: 35%;
+    text-align: center;
+}
+.text-modal-icecream{
+    align-content: center;
+    margin-top: 10%;
 }
 
 .close {
@@ -155,6 +161,11 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+.modal-icecream {
+    display: flex;
+    gap: 15px;
+    color: #d41443;
 }
 
 /*mobile*/
@@ -232,7 +243,7 @@
             content: '...';
             color: white;
             display: flex;
-            left: 4em;
+            left: 6.5em;
 }
     .product-pic{
             bottom: 30px;
@@ -298,6 +309,9 @@
             font-family: var(--second-font-family);
             font-weight: 400;
         }
+    .prod-1::after{
+        left: 5.15em;
+    }
     .text-cont1 {
             background-color: #ffb8ca;
             border-radius: 24px;
