@@ -14,7 +14,9 @@
   margin-top: -3rem;
   display: flex;
 }
-
+.card-section-contact {
+  display: flex;
+}
 .partners-card-content {
   display: grid;
   grid-gap: 10px;
@@ -154,12 +156,14 @@
 
 /* Stilizare pentru mobile */
 @media screen and (max-width: 768px) {
-  #partners-contact {
+  .card-section-contact {
     display: flex;
     flex-direction: column;
     gap: 5rem;
     justify-content: center;
+    padding-bottom: 30px;
   }
+
   .partners-card {
     width: 280px;
     position: relative;
@@ -198,14 +202,8 @@
 
 /* Stilizare pentru tablete */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-  #partners-contact {
+  .card-section-contact {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-    margin-top: -120px; /* Adăugăm un spațiu între secțiune și footer */
   }
 
   .partners-card {
@@ -234,7 +232,7 @@
 }
 /* Stilizare pentru desktop */
 @media screen and (min-width: 1280px) {
-  #partners-contact {
+  /* #partners-contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -242,5 +240,5 @@
     width: 100%;
     z-index: 10;
     margin-top: -10%;
-  }
+  } */
 }
