@@ -11,8 +11,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
-  height: 35rem;
+  margin-bottom: 6rem;
+  margin-top: 2.5rem;
+  height: 40rem;
 }
 
 /*css for text customer*/
@@ -83,7 +84,7 @@
 
 .navigation-manual {
   position: absolute;
-  margin-top: 32rem;
+  margin-top: 39rem;
   display: flex;
   justify-content: center;
 }
@@ -130,7 +131,7 @@
 /* Styles for tablet*/
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .navigation-manual {
-    margin-top: 26rem;
+    margin-top: 28rem;
   }
   .underline {
     background-image: repeating-linear-gradient(
@@ -144,7 +145,7 @@
 /*Styles for desctop*/
 @media screen and (min-width: 1200px) {
   .navigation-manual {
-    margin-top: 24rem;
+    margin-top: 26rem;
   }
   .underline {
     background: repeating-linear-gradient(
