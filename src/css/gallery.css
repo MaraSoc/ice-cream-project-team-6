@@ -1,18 +1,64 @@
-.gallery section {
-    width: 1280px;
-    height:430px;
-    border-radius: 20px;
+.gallery-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-
-
-.gallery section .container {
-    width:1013px;
-    height:430px;
-    display:flex;
+.gallery {
+  position: relative;
+  max-height: 100%;
+  margin-top: -3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.gallery-item-second,
+.gallery-item-third,
+.gallery-item-fourth,
+.gallery-item-fifth {
+  display: flex;
+  flex-direction: column;
+}
+.first-distinct {
+  margin-bottom: -10px;
+}
+.sorbet {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.sorbet:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+/* Stilizare tabletă și device-uri peste 768px */
+@media screen and (min-width: 768px) {
+  .gallery-section {
+    width: 100%;
+    display: flex;
     justify-content: center;
+  }
+  .gallery {
+    position: relative;
+    max-width: 1013px;
+    max-height: 100%;
+    z-index: 10;
+    margin-top: -4.5rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .sorbet {
+    border-radius: 20%;
+  }
+  .first-distinct {
+    margin-bottom: -16px;
+  }
+  .second-distinct {
+    margin-bottom: 76px;
+  }
 }
 
-.unstyle-list {
-    list-style-type: none;
+/* Stilizare tabletă și device-uri peste 1200px */
+@media screen and (min-width: 1200px) {
 }
-
